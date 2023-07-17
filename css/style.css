@@ -528,3 +528,56 @@ body {
 .map-item__value {
     margin-bottom: 10px;
 }
+
+
+.packages {
+    padding: 110px 0 80px;
+}
+
+.packages-item__row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.packages-item__image,
+.packages-item__content {
+    width: 48%;
+}
+
+.packages-item__image img {
+    border-radius: 24px;
+}
+
+
+.packages-item+.packages-item {
+    margin-top: 150px;
+}
+
+.packages-item__counter {
+    border-radius: 100px;
+    background: #ACD3EC;
+    display: inline-flex;
+    padding: 4px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 17px 0;
+}
+
+.packages-item__subtitle {
+    color: #1D1D1D;
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 30px 0 5px;
+}
