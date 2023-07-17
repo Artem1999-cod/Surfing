@@ -457,3 +457,74 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.map-item__region {
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 180%;
+    /* 25.2px */
+
+
+
+}
+
+.map-item__name {
+    background: linear-gradient(135deg, #3857F6 0%, #0B30EF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.map-item__icon {
+    margin-left: 10px;
+    stroke: #3857F6;
+    flex-shrink: 0;
+}
+
+.places__map {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -24.5%;
+}
+
+.map-item {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.places {
+    overflow: hidden;
+}
+
+.map-item--1 {
+    right: 82%;
+    top: 15%;
+}
+
+.map-item--2 {
+    right: 30%;
+    top: 16%;
+}
+
+.map-item--3 {
+    right: 49%;
+    top: 38%;
+}
+
+.map-item--4 {
+    right: 67%;
+    top: 63%;
+}
+
+.map-item__value {
+    margin-bottom: 10px;
+}
